@@ -1,0 +1,19 @@
+{
+  "name": "math-surgeon",
+  "version": "1.0.0",
+  "description": "a simple calculator using nodejs,typesript and inquirer",
+  "main": "index.js",
+  "type": "module",
+  "bin": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahsan raza",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
