@@ -1,14 +1,15 @@
 {
-  "name": "m10rza-simple-calculator",
-  "version": "2.0.0",
-  "description": "a simple calculator using nodejs,typesript and inquirer",
+  "name": "m6rza-number-guessing-game",
+  "version": "1.0.0",
+  "description": "A number guessing game by using typescript, nodejs and inquirer.",
   "main": "index.js",
   "type": "module",
-  "bin": "calculator.js",
+  "bin": "number-guessing-game.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ahsan raza",
+  "keywords": [],
+  "author": "",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.16"

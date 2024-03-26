@@ -15,16 +15,16 @@ const answer = await inqurier.prompt([
 
 if (answer.operator === "addition") {
     console.log(`${answer.firstnumber} + ${answer.secondnumber} = ${answer.firstnumber + answer.secondnumber}`);
-} else if (answer.operator === "subtraction") {
-    console.log(`${answer.firstnumber} - ${answer.secondnumber} = ${answer.firstnumber - answer.secondnumber}`);
-} else if (answer.operator === "multiplication") {
-    console.log(`${answer.firstnumber} x ${answer.secondnumber} = ${answer.firstnumber * answer.secondnumber}`);
-} else if (answer.operator === "division") {
-    console.log(`${answer.firstnumber} / ${answer.secondnumber} = ${answer.firstnumber / answer.secondnumber}`);
-} else {
-    console.error("number is not defined")
 }
-
-
-
-
+else if (answer.operator === "subtraction") {
+    console.log(`${answer.firstnumber} - ${answer.secondnumber} = ${answer.firstnumber - answer.secondnumber}`);
+}
+else if (answer.operator === "multiplication") {
+    console.log(`${answer.firstnumber} x ${answer.secondnumber} = ${answer.firstnumber * answer.secondnumber}`);
+}
+else if (answer.operator === "division") {
+    console.log(`${answer.firstnumber} / ${answer.secondnumber} = ${answer.firstnumber / answer.secondnumber}`);
+}
+else {
+    console.error("number is undefined");
+}
