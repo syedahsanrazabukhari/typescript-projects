@@ -1,0 +1,19 @@
+{
+  "name": "m3rza-atm-machine",
+  "version": "1.0.0",
+  "description": "a ATM machine using typescript and inqurier",
+  "main": "index.js",
+  "type": "module",
+  "bin": "atm-machine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Syed Ahsan Raza",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.17"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
