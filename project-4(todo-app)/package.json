@@ -1,15 +1,16 @@
 {
-  "name": "rz4-atm-machine",
+  "name": "rza4-todo-app",
   "version": "1.0.0",
-  "description": "a ATM machine using typescript and inqurier",
+  "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "atm-machine.js",
+  "bin": "todo-app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Syed Ahsan Raza",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.17"
   },

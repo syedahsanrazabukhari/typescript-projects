@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let accountbalance = 50000;
 let pincode = 1234;
